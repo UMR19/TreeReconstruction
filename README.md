@@ -4,7 +4,16 @@
 
 In the 3D tree reconstruction software based on ALS point clouds, after selecting the input point cloud data, users can set different parameter values in the parameter bar to control the growth angle of the trunk, the density of branches, the smoothness of branches, etc. Different colors can be selected for the trunk and leaves. The software comes with different leaf models for users to choose from, and by adjusting parameters, the tree model can be made more realistic. The following is a demonstration of the software usage process.
 
-**Step 1:** Click the executable program `ALSTreeReconstruction.exe`, select the exported tree point cloud file after the Models section, and reconstruct the model. The software can control the pitch angle with 'W', 'A' keys, the left and right rotation with 'S', 'D' keys, the left and right tilt angle with 'Q', 'E' keys, and zoom with 'Z', 'X' keys.
+## Using steps
+### Cloning the Repository
+```
+# HTTPS
+git clone https://github.com/UMR19/TreeReconstruction.git 
+```
+### Demonstration video
+https://github.com/UMR19/TreeReconstruction/assets/100742005/3951bb09-d177-448a-9cd5-53e8fb718868
+
+**Step 1:** Click the `ALSTreeReconstruction.exe`, select the exported tree point cloud file after the Models section, and reconstruct the model. The software can control the pitch angle with `W`, `A` keys, the left and right rotation with `S`, `D` keys, the left and right tilt angle with `Q`, `E` keys, and zoom with `Z`, `X` keys.
 
 ![Figure 1: Selecting the tree point cloud to be reconstructed](./images/fig1.png)
 <center><b>Figure 1</b> Selecting the tree point cloud to be reconstructed</center>
